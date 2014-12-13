@@ -3,6 +3,7 @@
 ## to retrieve the inverse
 
 ## Returns an object containing a matrix and it's cached inverse
+## The inverse of the matrix must be set after the object is created.
 
 makeCacheMatrix <- function(x = matrix()) {
   minverse <- NULL
